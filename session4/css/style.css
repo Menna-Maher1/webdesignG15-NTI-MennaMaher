@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bg-light{
+    background-color: lightgray;
+
+}
+.containar{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+
+}
+.padding{
+    padding: 3% 0%;
+}
+.text-center{
+    text-align: center;
+}
+.title-style{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.hr{
+    width: 5%;
+  margin: 2% auto;
+  border-color: orange;
+  border-style: solid;
+}
+.text-light{
+    color:rgb(175, 172, 172)
+}
+
+#awesom-section .card{
+    width: 32%;
+    margin-top: 7%;
+    display: inline-block;
+}
+

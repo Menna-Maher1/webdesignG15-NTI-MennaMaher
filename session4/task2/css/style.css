@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.containar {
+    width: 80%;
+    margin: auto;
+}
+.padding {
+    padding: 7% 0%;
+    background-color: rgba(0, 0, 0, 0.615);
+    background-image:url(../image/city.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    
+    color: white;
+    height: 50%;
+    
+}
+
+.content {
+    width: 55%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+.h1 {
+    font-size: 55px;
+}
+.h1 span {
+    color: orange;
+}
+
+.h2 {
+    margin-top: 20px;
+    font-size: 150%;
+    font-weight: normal;
+    width: 100%;
+}
+
+.hr {
+    width: 15%;
+    margin: 5% 0;
+    border-color: white;
+}
+
+.p {
+    margin-top: 5%;
+    width: 80%;
+    color: #ccc;
+    font-size: large;
+}
+
+.button {
+    margin-top: 5%;
+    padding: 2% 5%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.form {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5%;
+    background-color: white;
+    color: #777;
+}
+
+.form h3 {
+    text-align: center;
+    background-color: #eee;
+    padding: 5%;
+    font-size: 120%;
+}
+
+.form h3 span {
+    color: orange;
+}
+
+.form input {
+    display: block;
+    width: 80%;
+    margin: 5% auto;
+    padding: 3%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.form button {
+    width: 100%;
+    padding: 4%;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 120%;
+}
+.social {
+    height: 15%;
+    padding: 2% 10%;
+}
+.social-text {
+    display: inline-block;
+    width: 40%;
+}
+.social-text h3 {
+    font-size: 120%;
+}
+.social-text p {
+    color: #999;
+    margin-top: 2%;
+}
+.icons {
+    display: inline-block;
+    width: 55%;
+    text-align: center;
+    font-size: 180%;
+    color: #aaa;
+}
+
+.tabs-section {
+    background-color: #f5f5f5;
+    padding: 8% 10%;
+}
+.tabs {
+    display: inline-block;
+    vertical-align: top;
+    width: 12%;
+}
+.tab {
+    background-color: #333;
+    color: white;
+    padding: 30% 5%;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+.tab1 {
+    background-color: orange;
+}
+.tab-text {
+    display: inline-block;
+    width: 50%;
+    margin-left: 6%;
+    margin-bottom:9%;
+}
+.tab-text h2 {
+    margin-bottom: 7%;
+}
+.tab-text p {
+    color: #888;
+    margin-bottom: 5%;
+    font-size: 100%;
+}
+.download {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 3% 7%;
+    font-size: 100%;
+}
+.city {
+    display: inline-block;
+    width: 25%;
+    margin-left: 5%;
+    vertical-align: top;
+}
+.city img {
+    width: 100%;
+    -webkit-box-reflect: below 1% 
+    linear-gradient(
+        transparent,
+        rgba(255, 255, 255, 0.3)
+    );
+}
