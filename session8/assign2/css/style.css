@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    background-color: black;
+}
+.container{
+    width: 100%;
+    padding-top: 15%;
+
+}
+
+.animation-img{
+    width:100px;
+    height: 100px;
+    position: relative;
+    left: 0;
+    background-color: black;
+    animation-duration: 4s;
+    animation-name: moveCar ;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+.container:hover{
+     animation-play-state:running ;
+     transition: 3S;
+}
+
+@keyframes moveCar {
+    
+     0%{ 
+        left: 0;
+     }
+     100%{
+        left: 100%;
+     }
+}
