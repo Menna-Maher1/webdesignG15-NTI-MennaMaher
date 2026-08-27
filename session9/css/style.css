@@ -1,0 +1,64 @@
+body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.article-card {
+    height: 220px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.card1 {
+    background-image: url("images/bogdan-vaskan-1taEJJwIv-0-unsplash.jpg");
+}
+.card2 {
+    background-image: url("images/city head.jpg");
+}
+.card3 {
+    background-image: url("images/joel-filipe-RFDP7_80v5A-unsplash.jpg");
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.card-content {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+.category {
+    display: inline-block;
+    background-color: white;
+    color: #1d4f91;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 12px;
+    margin-bottom: 15px;
+}
+
+.card-content h3 {
+    font-size: 20px;
+    line-height: 1.35;
+    margin: 0 auto 20px;
+    max-width: 400px;
+}
+
+.card-content p {
+    font-size: 12px;
+    color: #ccc;
+    margin: 0;
+}

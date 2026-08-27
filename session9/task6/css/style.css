@@ -1,0 +1,87 @@
+.btn-outline-success {
+  --bs-btn-border-color: #fff;
+  background-color: white;
+  color: black;
+}
+.card{
+    height: 50px;
+}
+.container2{
+  padding-top: 42%;
+}  
+.shop{
+   padding-left: 20%;
+}
+.featured-shop {
+  padding-left: 1%;
+  border: 2px solid lightgray;
+  margin-left: 12%;
+}
+
+.team{
+  padding-top: 12%;
+}
+.text-team h1{
+  width: 390%;
+  font-size: 60px;
+  padding-left: 121%;
+  padding-top: 37%;
+}
+.sec4{
+  margin-top: 35%;
+}
+
+footer {
+    height: 500px;
+    background-color:rgb(32, 32, 32);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    color: white;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-weight: bold;
+}
+.social {
+    display: flex;
+    gap: 18px;
+}
+.social a {
+    color: white;
+    text-decoration: none;
+}
+.footer-links {
+    display: flex;
+    gap: 30px;
+    font-size: 80%;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+@media (min-width: 1400px){
+.container{
+    max-width: 1490px;
+    padding:0%
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    display: flex;
+    padding-left: 5%;
+  }
+}  
