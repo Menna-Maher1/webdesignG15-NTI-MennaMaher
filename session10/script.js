@@ -34,23 +34,35 @@
 // console.log(userAge);
 // console.log(userAddress);
 
-function looping (startNum, endNum, breakNum, contNum){
-    if(startNum==undefined || endNum==undefined || breakNum== undefined || contNum== undefined){
-        alert("enter all num")
-        return;
-    }
+// function looping (startNum, endNum, breakNum, contNum){
+//     if(startNum==undefined || endNum==undefined || breakNum== undefined || contNum== undefined){
+//         alert("enter all num")
+//         return;
+//     }
 
-for(var i = startNum ; i <= endNum ; i++){
-     if(i == contNum){ 
+// for(var i = startNum ; i <= endNum ; i++){
+//      if(i == contNum){ 
         
-    continue;
-     }
-     if(i == breakNum) {
+//     continue;
+//      }
+//      if(i == breakNum) {
     
-        break;
-    }
-     console.log(i);
- }
- return i;
+//         break;
+//     }
+//      console.log(i);
+//  }
+//  return i;
+// }
+// looping(1,10,9,3);
+
+
+var courses= ["html" , "css" , "js"];
+var course = prompt("enter course");
+
+if(courses.includes(course)){
+    console.log("found");
+
 }
-looping(1,10,9,3);
+else{
+    console.log("notfound");
+}
